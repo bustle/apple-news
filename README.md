@@ -25,6 +25,7 @@ var client = createClient({
 ## Methods
 
 ```
+client.makeRequest (method, endpoint, { headers, body }, cb)
 client.readChannel ({ channelId }, cb)
 client.listSections ({ channelId }, cb)
 client.readSection ({ sectionId }, cb)
